@@ -1,0 +1,16 @@
+/* There is some kind of a bug with github that makes the tab length appear as if it is 8 spaces long even though it is set to 4.
+/* This makes it so that all tab lengths, in all pages of code will appear as 4 length regardless of what it is set to.
+
+.highlight {
+		-moz-tab-size: 4 !important;
+		-webkit-tab-size: 4 !important;
+		-o-tab-size: 4 !important;
+		tab-size: 4 !important;
+	}
+
+.type-ruby .highlight {
+		-moz-tab-size: 4 !important;
+		-webkit-tab-size: 4 !important;
+		-o-tab-size: 4 !important;
+		tab-size: 4 !important;
+	}
